@@ -10,8 +10,11 @@ It should contain the following:
   3. Fire Rate  
   4. Fire interval   
   5. Base Damage  
-  6. Mobility; Sprint Speed, ADS time, ADS movement speed, Reload Speed   
-  7. Range  (Damage dropoff, First Damage Range, Damage spread)  
-  8. Control (Horizontal and Vertical Recoil)  
-  9. Accuracy(ADS bullet spread)  
-All in all It should be a huge database with lots of table, primary keys n all the stuff. More documentation wto be provided later
+  6. Mobility; Sprint Speed, ADS time, ADS movement speed, Reload Speed, sprint to fire time  
+  7. Range  (Damage dropoff, First Damage Range, Damage Distribution to the body)  
+  8. Control (Horizontal, Vertical Recoil and hit flinch)  
+  9. Accuracy(ADS bullet spread, hipfire bullet spread, *Steady Aim countdown*)  
+  10. Mag capacity  
+  
+ All in all It should be a huge database with lots of table, primary keys n all the stuff. More documentation wto be provided later  
+ I'll try replicating the real thing as best as I can
