@@ -17,4 +17,12 @@ It should contain the following:
   10. Mag capacity  
   
  All in all It should be a huge database with lots of table, primary keys n all the stuff. More documentation wto be provided later  
- I'll try replicating the real thing as best as I can
+ I'll try replicating the real thing as best as I can  
+ 
+ # Why I'm doing this  
+ I want to deepen my SQL knowledge, I know the basic but I want to gain some practice with hands on data, This repo will be like a playground for me.
+ 
+ # Disclaimer  
+ Call of Duty data for the guns depending on which game mode you are playing, Like for MultiPlayer the ADS bullet spread is really high as compared to Battle Royale and the damage in BR and MP greatly differ from the Zombies mode (*Base Damage in Zombies is increased*)
+ 
+ 
