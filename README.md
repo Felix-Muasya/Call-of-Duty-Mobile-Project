@@ -35,21 +35,25 @@ It should contain the following:
 
   This could simply be interpreted as the number of bullets a Gun fires per minute, this number is multiplied by 10  to get the Fire Rate in Rounds Per Minute (RPM). The AK-47 has an FR of 55 (550RPM) or when equipped with 5.45 Caliber Ammo it's 58(580RPM).  
   
+  
   ### 4. Fire interval:  
   ![AK-47 FI](https://user-images.githubusercontent.com/66355304/197145392-d810677b-610a-4594-b079-096c919de219.png)  
+   <br />
   This is interpreted as the *The delay between bullets fired*  measured in milliseconds (ms) and like the fire rate is not an accurate representation of RL although it is based on it. This is also subject to change based on the attachments used.  
+ 
 
  
   
   ### 5. Base Damage:  
-  ![AK-47 BD](https://user-images.githubusercontent.com/66355304/197148052-a9d1b9c7-c488-4c52-ac0e-b21122c6baf1.png)  
+ ![AK-47 BD](https://user-images.githubusercontent.com/66355304/197148052-a9d1b9c7-c488-4c52-ac0e-b21122c6baf1.png)  
 
   
   This is the Damage done on the hp per shot fired. The AK-47 has a 33 base damage, so to kill an enemy with 100hp you will to fire 4 bullets ie 33+33+33+1 = 100, since the enemy can't experience -32 damage on the last bullet they will only experince 1 dmg on the last shot. The base damage for every gun is subject to change based on *the damage distribution on the body*, *Range* (how far away you are from your enemy) and the *ammo type* used. More on these 3 later.
   
-  ### 6. Mobility:
-   ![AK-47 Sprint](https://user-images.githubusercontent.com/66355304/197148485-7b81db6a-7fd9-4afe-ad8d-beb25b99ad49.png)  
-   ![ADS time](https://user-images.githubusercontent.com/66355304/197149524-b798182d-2165-42f7-a7b9-12d407e9a54b.png)  
+  
+  ### 6. Mobility:  
+ ![AK-47 Sprint](https://user-images.githubusercontent.com/66355304/197148485-7b81db6a-7fd9-4afe-ad8d-beb25b99ad49.png)  
+ ![ADS time](https://user-images.githubusercontent.com/66355304/197149524-b798182d-2165-42f7-a7b9-12d407e9a54b.png)  
    ![AK-47 Reload](https://user-images.githubusercontent.com/66355304/197149639-608f1fce-5769-4e95-acf3-0169272440a4.png)  
 
 
@@ -58,10 +62,19 @@ It should contain the following:
  
 
   
-  7. Range  (Damage dropoff, First Damage Range, Damage Distribution to the body)  
-  8. Control (Horizontal, Vertical Recoil and hit flinch)  
-  9. Accuracy(ADS bullet spread, hipfire bullet spread, *Steady Aim countdown*)  
-  10. Mag capacity  
+ ### 7. Range  (Damage dropoff, First Damage Range, Damage Distribution to the body)  
+   ![AK-47 Damage Distribution with Range](https://user-images.githubusercontent.com/66355304/197187003-b9062b92-a7e0-4041-8447-6e4a2b81f4e2.png)  
+   ![AK-47 Body Damage Distribution](https://user-images.githubusercontent.com/66355304/197186189-0b028afa-449b-4983-992c-39aa9c3748bd.png)
+![Damage_multiplier](https://user-images.githubusercontent.com/66355304/197186843-d9dfa4a7-3a7b-49c2-962e-b0f61dd66a1e.png)  
+This is how much damage the AK-47 does at any given range and how much damge each shot does to a specific zone of the body ie a hit box. So to know how much damge each shot does, take the base damage at each range zone * the damage multiplier  
+
+
+
+
+ 
+ 9. Control (Horizontal, Vertical Recoil and hit flinch)  
+ 10. Accuracy(ADS bullet spread, hipfire bullet spread, *Steady Aim countdown*)  
+ 11. Mag capacity  
   
  All in all It should be a huge database with lots of table, primary keys n all the stuff. More documentation wto be provided later  
  I'll try replicating the real thing as best as I can  
