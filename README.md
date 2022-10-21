@@ -3,6 +3,7 @@ The game Call Of Duty Mobile has extensive data, I'll write scripts in python to
 Honestly this is a lot of work since you can't scrape the data Meaning all entries will be manual.  
 The are at least 96 guns in the game each with a minimum of 10* features* (for lack of a better word).  
 
+![alt text](https://github.com/[Felix-Muasya]/[Call-of-Duty-Mobile-Gun-Database]/blob/[In-Game-Images]/)
 ##  The Data
 It should contain the following:
   1. Gun category:  
