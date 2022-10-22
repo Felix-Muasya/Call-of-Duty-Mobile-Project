@@ -86,7 +86,7 @@ This is how much damage the AK-47 does at any given range and how much damge eac
  Call of Duty data for the guns depending on which game mode you are playing, Like for MultiPlayer the ADS bullet spread is really high as compared to Battle Royale and the damage in BR and MP greatly differ from the Zombies mode (*Base Damage in Zombies is increased*)  
  <br />
 <br />
-c
+
  
  
  
