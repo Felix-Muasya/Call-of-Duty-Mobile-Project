@@ -1,4 +1,4 @@
-# CODM-SQL
+# Scope of The project
 The game Call Of Duty Mobile has extensive data, I'll write scripts in python to save the data, export it to an excel file, export the file to an SQL database and work with it from there.  
 Honestly this is a lot of work since you can't scrape the data Meaning all entries will be manual.  
 The are at least 96 guns in the game each with a minimum of 10* features* (for lack of a better word).  
@@ -12,7 +12,7 @@ For purposes of simplicity I'll use the **AK-47** as a reference gun
 
 ##  The Data
 It should contain the following:
-  ### 1. Gun category:  
+  ### 1.1 Gun category:  
   Guns in CODM are either *Primary* or *Seconday*.  
   Primary Guns Inlcude the following subcategories: Assault, Sniper, LMG, SMG, Shotgun and Marksman.  
   <br />
@@ -25,18 +25,18 @@ It should contain the following:
 
   
   
-  ### 2. Gun Name:  
+  ### 1.2 Gun Name:  
   ![AK-47 name](https://user-images.githubusercontent.com/66355304/197145111-2f4e3ba2-280a-47c8-876a-43249c46de23.png)
 
   This a bit of a Tricky one Since Guns do come in variations eg The AK47 has 3+ variants that inlcude but are not limited to *AK-47 Steel Blue* (Epic variant), *AK-47 Kuromaku* (Legendary Variant) and the *AK-47 Radiance* (Mythic Variant). But I'll just use the base names of the guns since variations are only cosmetic and do not change the base weapon stats.  
   
-  ### 3. Fire Rate:  
+  ### 1.3 Fire Rate:  
   ![AK-47 FR](https://user-images.githubusercontent.com/66355304/197145310-1435bd46-b0eb-40a3-9e49-c84e2980332d.png)
 
   This could simply be interpreted as the number of bullets a Gun fires per minute, this number is multiplied by 10  to get the Fire Rate in Rounds Per Minute (RPM). The AK-47 has an FR of 55 (550RPM) or when equipped with 5.45 Caliber Ammo it's 58(580RPM).  
   
   
-  ### 4. Fire interval:  
+  ### 1.4 Fire interval:  
   ![AK-47 FI](https://user-images.githubusercontent.com/66355304/197145392-d810677b-610a-4594-b079-096c919de219.png)  
    <br />
   This is interpreted as the *The delay between bullets fired*  measured in milliseconds (ms) and like the fire rate is not an accurate representation of RL although it is based on it. This is also subject to change based on the attachments used.  
@@ -44,14 +44,14 @@ It should contain the following:
 
  
   
-  ### 5. Base Damage:  
+  ### 1.5 Base Damage:  
  ![AK-47 BD](https://user-images.githubusercontent.com/66355304/197148052-a9d1b9c7-c488-4c52-ac0e-b21122c6baf1.png)  
 
   
   This is the Damage done on the hp per shot fired. The AK-47 has a 33 base damage, so to kill an enemy with 100hp you will to fire 4 bullets ie 33+33+33+1 = 100, since the enemy can't experience -32 damage on the last bullet they will only experince 1 dmg on the last shot. The base damage for every gun is subject to change based on *the damage distribution on the body*, *Range* (how far away you are from your enemy) and the *ammo type* used. More on these 3 later.
   
   
-  ### 6. Mobility:  
+  ### 1.6 Mobility:  
  ![AK-47 Sprint](https://user-images.githubusercontent.com/66355304/197148485-7b81db6a-7fd9-4afe-ad8d-beb25b99ad49.png)  
  ![ADS time](https://user-images.githubusercontent.com/66355304/197149524-b798182d-2165-42f7-a7b9-12d407e9a54b.png)  
    ![AK-47 Reload](https://user-images.githubusercontent.com/66355304/197149639-608f1fce-5769-4e95-acf3-0169272440a4.png)  
@@ -62,7 +62,7 @@ It should contain the following:
  
 
   
- ### 7. Range  (Damage dropoff, First Damage Range, Damage Distribution to the body)  
+ ### 1.7 Range  (Damage dropoff, First Damage Range, Damage Distribution to the body)  
    ![AK-47 Damage Distribution with Range](https://user-images.githubusercontent.com/66355304/197187003-b9062b92-a7e0-4041-8447-6e4a2b81f4e2.png)  
    ![AK-47 Body Damage Distribution](https://user-images.githubusercontent.com/66355304/197186189-0b028afa-449b-4983-992c-39aa9c3748bd.png)
 ![Damage_multiplier](https://user-images.githubusercontent.com/66355304/197186843-d9dfa4a7-3a7b-49c2-962e-b0f61dd66a1e.png)  
