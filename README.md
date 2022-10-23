@@ -1,20 +1,25 @@
-# Scope of The project
-The game Call Of Duty Mobile has extensive data, I'll write scripts in python to save the data, export it to an excel file, export the file to an SQL database and work with it from there.  
-Honestly this is a lot of work since you can't scrape the data Meaning all entries will be manual.  
-The are at least 96 guns in the game each with a minimum of 10* features* (for lack of a better word).  
+# Intoduction and Scope of the Project
+#### Inspirations for this project: [Kamal Carter](https://www.youtube.com/watch?v=ne9bmMX82iY) and [River's Educational Channel](https://www.youtube.com/watch?v=LXA7zXVz8A4)
+Call of Duty Mobile is a free to play online game with at least 70 Million players Worldwide. As with other games CODM has a a lot of bots to fill in for real player and make it easier for new players to go up the learning curve. The game has a ranking for the players based on the points a player has.  
+The in game ranks are as follows:   *Rookie Tier*(1 - 1000 points), *Veteran Tier*( 1001 - 2000 points), *Elite Tier* (2001 - 3000 points), *Pro Tier* (3001 - 4500 points), *Master Tier* (4501 - 6000 points), *GrandMaster Tier* (6001 - 8000), *Legendary Tier* (8000+ points).
 
- ### Why I'm doing this  
- I want to deepen my SQL knowledge, I know the basic but I want to gain some practice with hands on data, This repo will be like a playground for me.
+ ### Objectives for the project
+a. Create a database of all the guns in the game, the attachments for each gun and the effect they have. This will be done in SQL.  
+b. Write queries to return any gun with specified attachments to test for gun performance(Python, SQL).  
+c. Learn more about Data Structures and Algorithms.  
+d. 
 
 
+
+
+##  The Data
 For purposes of simplicity I'll use the **AK-47** as a reference gun  
 <br />
 ![AK-47 Full](https://user-images.githubusercontent.com/66355304/197142661-0d8cad72-b0b1-4465-bbd6-84b532f74865.png)
 <br />
 
 
-##  The Data
-It should contain the following:
+The data should contain the following:
   ### 1.1 Gun category:  
   Guns in CODM are either *Primary* or *Seconday*.  
   Primary Guns Inlcude the following subcategories: Assault, Sniper, LMG, SMG, Shotgun and Marksman.  
