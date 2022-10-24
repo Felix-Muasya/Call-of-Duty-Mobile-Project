@@ -3,13 +3,12 @@
 Call of Duty Mobile is a free to play online game with at least 70 Million players Worldwide. As with other games CODM has a a lot of bots to fill in for real player and make it easier for new players to go up the learning curve. The game has a ranking for the players based on the points a player has.  
 The in game ranks are as follows:   *Rookie Tier*(1 - 1000 points), *Veteran Tier*( 1001 - 2000 points), *Elite Tier* (2001 - 3000 points), *Pro Tier* (3001 - 4500 points), *Master Tier* (4501 - 6000 points), *GrandMaster Tier* (6001 - 8000), *Legendary Tier* (8000+ points).
 
- ### Objectives for the project
-a. Create a database of all the guns in the game, the attachments for each gun and the effect they have. This will be done in SQL.  
-b. Write queries to return any gun with specified attachments to test for gun performance(Python, SQL).  
-c. Learn more about Data Structures and Algorithms.  
-d. 
-
-
+ ### Why I'm doing this  
+ a. I aim to expand my SQL knowldge; By making database(s) I want to get more hand on practice with SQL  
+ b. Try my hand at building a bot that will possibly write SQL queries, returning output to the user.  
+ c. Challenge myself in building a bot that can play the game and hopefully rank up to legendary, I know this will not be easy but I'm patient enough to see it through  
+ d. In building the bot I will learn more about ML and AI outisde of my usual academic setting.  
+ e. Enjoy myself.
 
 
 ##  The Data
