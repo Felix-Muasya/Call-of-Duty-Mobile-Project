@@ -4,13 +4,19 @@ Call of Duty Mobile is a free to play online game with at least 70 Million playe
 The in game ranks are as follows:   *Rookie Tier*(1 - 1000 points), *Veteran Tier*( 1001 - 2000 points), *Elite Tier* (2001 - 3000 points), *Pro Tier* (3001 - 4500 points), *Master Tier* (4501 - 6000 points), *GrandMaster Tier* (6001 - 8000), *Legendary Tier* (8000+ points).
 
  ### Why I'm doing this  
- a. I aim to expand my SQL knowldge; By making database(s) I want to get more hand on practice with SQL  
+ a. I aim to expand my SQL knowldge; By making database(s) I want to get more hand on practice with SQL   
+   
  b. Try my hand at building a bot that will possibly write SQL queries, returning output to the user.  
- c. Challenge myself in building a bot that can play the game and hopefully rank up to legendary, I know this will not be easy but I'm patient enough to see it through  
+   
+ c. Challenge myself in building a bot that can play the game and hopefully rank up to legendary, I know this will not be easy but I'm patient enough to see it through. Why bother with the batabase if you want to make a bot? I need to better understand most if not all of the games stats so I can give the bot a better chance of winning with different guns, situations and maps.  
+   
  d. In building the bot I will learn more about ML and AI outisde of my usual academic setting.  
+   
  e. Enjoy myself.  
+   
  I intend to create something similar to [this](https://www.icloud.com/numbers/0dt7hWv0j7OPGLUlv1fDrZ1Wg#COD_Mobile_Gun_Data), but update it to account for recoil, headshot accuracy, bullet spread accuracy, percantage of shots landed, range and anything else relevant to the current state of the game. 
  
+
 
 
 ##  The Data
