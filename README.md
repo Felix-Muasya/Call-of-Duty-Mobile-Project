@@ -8,7 +8,9 @@ The in game ranks are as follows:   *Rookie Tier*(1 - 1000 points), *Veteran Tie
  b. Try my hand at building a bot that will possibly write SQL queries, returning output to the user.  
  c. Challenge myself in building a bot that can play the game and hopefully rank up to legendary, I know this will not be easy but I'm patient enough to see it through  
  d. In building the bot I will learn more about ML and AI outisde of my usual academic setting.  
- e. Enjoy myself.
+ e. Enjoy myself.  
+ I intend to create something similar to [this](https://www.icloud.com/numbers/0dt7hWv0j7OPGLUlv1fDrZ1Wg#COD_Mobile_Gun_Data), but update it to account for recoil, headshot accuracy, bullet spread accuracy, percantage of shots landed, range and anything else relevant to the current state of the game. 
+ 
 
 
 ##  The Data
