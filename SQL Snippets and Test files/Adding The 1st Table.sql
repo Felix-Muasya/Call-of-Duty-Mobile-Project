@@ -11,6 +11,7 @@ CREATE TABLE Primary_Guns(Category VARCHAR(20),
 							
 							/*More Specific Stats*/
 							Fire_Interval_ms float NOT NULL,
+			  				-- to add bullet speed
 
 							/*For Burst weapons*/
 							Shots_Per_Burst int NULL,
