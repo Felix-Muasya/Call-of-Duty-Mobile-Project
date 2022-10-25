@@ -1,1 +1,2 @@
-I'm conflicted on whether to creating a table for each gun since some of the guns have differing attributes ie burst weapons have 3 extra properties (shots per burst, fire interval between bursts and fires interval in burst. Acha tuone
+I'm conflicted on whether to creating a table for each gun since some of the guns have differing attributes ie burst weapons have 3 extra properties (shots per burst, fire interval between bursts and fires interval in burst. Acha tuone.  
+Let me make 2 tables 1st one for basic details, the other for extra details
