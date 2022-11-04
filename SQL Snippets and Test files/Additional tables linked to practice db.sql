@@ -28,3 +28,14 @@ FOREIGN KEY (Name) REFERENCES Guns_general(Name),
 Class VARCHAR(20) NOT NULL,
 Steady_Aim_Countdown_s float NOT NULL
 );
+
+CREATE TABLE Damage_multiplier
+(-- Adding dmg multiplier for body parts
+Name VARCHAR(200) NOT NULL,
+FOREIGN KEY (Name) REFERENCES Guns_general(Name),
+Head_and_Neck float, 
+Upper_Chest float,
+Stomach float,
+Upper_Arm float,
+Lower_Arm float,
+Legs float);
